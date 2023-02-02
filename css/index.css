@@ -1,0 +1,1055 @@
+body,
+html {
+    scroll-behavior: smooth;
+}
+
+.homesec {
+    background-image: url("../img/slider/slider-01.jpg");
+    background-size: 100% 100%;
+}
+
+.nav-bg {
+    background-color: #0f0f0f !important;
+}
+
+.nav-head>a {
+    font-size: 24px;
+    font-weight: 800;
+    display: block;
+    font-size: 24px;
+    font-weight: 750;
+}
+
+.nav-icon {
+    color: white;
+}
+
+a.sections.text-white.nav-link.active {
+    color: #DC3545 !important;
+    text-decoration: underline;
+}
+
+.nav-icon {
+    background-color: aliceblue;
+    height: 0.5px;
+    display: block;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    margin-top: 2px;
+}
+
+.home_p::after {
+    content: "";
+    animation: wordchange 13s infinite ease-in-out;
+    -webkit-animation: wordchange 13s infinite ease-in-out;
+}
+
+.img-cover {
+    width: 70%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 0 8px #555555 inset;
+    box-shadow: 0 0 0 8px #555555 inset;
+    display: block;
+    margin-right: 0;
+    margin-top: 0;
+    border: 10px transparent;
+    padding: 10px;
+}
+
+.img-cover img {
+    top: 5px;
+    left: 10px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-layer {
+    background: rgba(0, 0, 0, 0.57) none repeat scroll 0 0;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+.img-content:hover .img-layer {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+}
+
+.img-layer i:hover {
+    color: #DC3545;
+}
+
+.part2-content h2::before {
+    background: #ff305b none repeat scroll 0 0;
+    content: "";
+    height: 55%;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 4px;
+}
+
+.content-par {
+    border-bottom: 1px dashed;
+}
+
+.about-btns button {
+    background-color: #DC3545;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.about-btns a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-btns button:hover {
+    background-color: #EC2403;
+}
+
+.our-services {
+    background-color: #F1F1F1;
+}
+
+.services-icn {
+    color: #DC3545;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+}
+
+.headings h2::after {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    border-bottom: 1.5px solid #DC3545;
+    bottom: -3px;
+    height: 2px;
+    width: 160px;
+}
+
+.headings h2:before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: -20%;
+    padding: 4px 0 5px;
+    width: 80px;
+}
+
+.card {
+    padding: 40px 15px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    border: unset;
+    background: transparent;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+}
+
+.card:hover {
+    background-color: white;
+}
+
+.card:hover .services-icn {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.prot-layer {
+    background-color: rgba(0, 0, 0, 0.56);
+    opacity: 0;
+    visibility: hidden;
+    transition: 5s ease-in-out;
+    -webkit-transition: 5s ease-in-out;
+    -moz-transition: 5s ease-in-out;
+    -ms-transition: 5s ease-in-out;
+    -o-transition: 5s ease-in-out;
+}
+
+.prot figure:hover .prot-layer {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.p .sec-5 {
+    background-color: #F1F1F1;
+}
+
+.sec-5 i {
+    color: #DC3545;
+}
+
+.numbers1::after {
+    content: "30";
+    animation: numbers 1s;
+    -webkit-animation: numbers 1s;
+}
+
+.numbers2::after {
+    content: "345";
+    animation: numbers 1s;
+    -webkit-animation: numbers 1s;
+}
+
+.numbers3::after {
+    content: "1800";
+    animation: numbers 1s;
+    -webkit-animation: numbers 1s;
+}
+
+.numbers4::after {
+    content: "1200";
+    animation: numbers 1s;
+    -webkit-animation: numbers 1s;
+}
+
+.dots [data-bs-target] {
+    width: 9px;
+    height: 10px;
+    border: 2px solid #DC3545;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.dots .active {
+    background: #ff305b none repeat scroll 0 0;
+    border-radius: 10px;
+    width: 2px;
+    height: 1px;
+    padding: 4px 12px;
+}
+
+.crsol-card {
+    background: linear-gradient(135deg, #DC3545 20%, #F1F1F1 20%);
+    padding-bottom: 20px;
+}
+
+.crsol-card img {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 75%;
+}
+
+.crsol-card a {
+    color: #555555;
+    text-decoration: none;
+    font-size: small;
+}
+
+.crsol-card-icns i {
+    color: yellow;
+}
+
+.blog {
+    background-color: #F1F1F1;
+}
+
+.blog a {
+    text-decoration: none;
+}
+
+.blog a {
+    color: black;
+}
+
+.blog a:hover {
+    color: #DC3545;
+}
+
+.btn-contact {
+    background-color: #ff305b;
+}
+
+.btn-contact:hover {
+    background-color: #DC3545;
+}
+
+footer {
+    background-color: #333333;
+}
+
+.footer-icns i {
+    color: white;
+}
+
+.footer-icns i:hover {
+    color: #DC3545;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-links:hover a {
+    text-decoration: underline;
+}
+
+@keyframes wordchange {
+    1% {
+        content: "D|";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "Des|";
+    }
+
+    4% {
+        content: "Desi|";
+    }
+
+    5% {
+        content: "Desig|";
+    }
+
+    6% {
+        content: "Design|";
+    }
+
+    7% {
+        content: "Designe|";
+    }
+
+    8% {
+        content: "Designer|";
+    }
+
+    9% {
+        content: "Designe|";
+    }
+
+    10% {
+        content: "Design|";
+    }
+
+    11% {
+        content: "Desig|";
+    }
+
+    12% {
+        content: "Desi|";
+    }
+
+    13% {
+        content: "Des|";
+    }
+
+    14% {
+        content: "De|";
+    }
+
+    15% {
+        content: "D|";
+    }
+
+    16% {
+        content: "|";
+    }
+
+    17% {
+        content: "D|";
+    }
+
+    18% {
+        content: "De|";
+    }
+
+    19% {
+        content: "Dev|";
+    }
+
+    20% {
+        content: "Deve|";
+    }
+
+    21% {
+        content: "Devel|";
+    }
+
+    22% {
+        content: "Develo|";
+    }
+
+    23% {
+        content: "Develop|";
+    }
+
+    24% {
+        content: "Develope|";
+    }
+
+    25% {
+        content: "Developer|";
+    }
+
+    25% {
+        content: "Develope|";
+    }
+
+    26% {
+        content: "Develop|";
+    }
+
+    27% {
+        content: "Devel|";
+    }
+
+    28% {
+        content: "Deve|";
+    }
+
+    29% {
+        content: "Deve|";
+    }
+
+    30% {
+        content: "Dev|";
+    }
+
+    31% {
+        content: "De|";
+    }
+
+    32% {
+        content: "D|";
+    }
+
+    33% {
+        content: "|";
+    }
+
+    34% {
+        content: "D|";
+    }
+
+    35% {
+        content: "De|";
+    }
+
+    36% {
+        content: "Des|";
+    }
+
+    37% {
+        content: "Desi|";
+    }
+
+    38% {
+        content: "Desig|";
+    }
+
+    39% {
+        content: "Design|";
+    }
+
+    40% {
+        content: "Designe|";
+    }
+
+    41% {
+        content: "Designer|";
+    }
+
+    42% {
+        content: "Designe|";
+    }
+
+    43% {
+        content: "Design|";
+    }
+
+    44% {
+        content: "Desig|";
+    }
+
+    45% {
+        content: "Desi|";
+    }
+
+    46% {
+        content: "Des|";
+    }
+
+    47% {
+        content: "De|";
+    }
+
+    48% {
+        content: "D|";
+    }
+
+    49% {
+        content: "|";
+    }
+
+    50% {
+        content: "|";
+    }
+
+    51% {
+        content: "D|";
+    }
+
+    52% {
+        content: "Des|";
+    }
+
+    53% {
+        content: "Desi|";
+    }
+
+    54% {
+        content: "Desig|";
+    }
+
+    55% {
+        content: "Design|";
+    }
+
+    56% {
+        content: "Designe|";
+    }
+
+    57% {
+        content: "Designer|";
+    }
+
+    58% {
+        content: "Designe|";
+    }
+
+    59% {
+        content: "Design|";
+    }
+
+    60% {
+        content: "Desig|";
+    }
+
+    61% {
+        content: "Desi|";
+    }
+
+    62% {
+        content: "Des|";
+    }
+
+    63% {
+        content: "De|";
+    }
+
+    64% {
+        content: "D|";
+    }
+
+    65% {
+        content: "|";
+    }
+
+    66% {
+        content: "D|";
+    }
+
+    67% {
+        content: "De|";
+    }
+
+    68% {
+        content: "Dev|";
+    }
+
+    69% {
+        content: "Dev|";
+    }
+
+    70% {
+        content: "Deve|";
+    }
+
+    71% {
+        content: "Devel|";
+    }
+
+    72% {
+        content: "Develo|";
+    }
+
+    73% {
+        content: "Develop|";
+    }
+
+    74% {
+        content: "Develope|";
+    }
+
+    75% {
+        content: "Developer|";
+    }
+
+    76% {
+        content: "Develope|";
+    }
+
+    77% {
+        content: "Develop|";
+    }
+
+    78% {
+        content: "Devel|";
+    }
+
+    79% {
+        content: "Deve|";
+    }
+
+    80% {
+        content: "Dev|";
+    }
+
+    81% {
+        content: "De|";
+    }
+
+    85% {
+        content: "D|";
+    }
+
+    90% {
+        content: "D|";
+    }
+
+    95% {
+        content: "D";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+@keyframes numbers {
+    1% {
+        content: "1";
+    }
+
+    2% {
+        content: "2";
+    }
+
+    3% {
+        content: "3";
+    }
+
+    4% {
+        content: "4";
+    }
+
+    5% {
+        content: "5";
+    }
+
+    6% {
+        content: "6";
+    }
+
+    7% {
+        content: "7";
+    }
+
+    8% {
+        content: "8";
+    }
+
+    9% {
+        content: "9";
+    }
+
+    10% {
+        content: "10";
+    }
+
+    11% {
+        content: "11";
+    }
+
+    12% {
+        content: "12";
+    }
+
+    13% {
+        content: "13";
+    }
+
+    14% {
+        content: "14";
+    }
+
+    15% {
+        content: "15";
+    }
+
+    16% {
+        content: "16";
+    }
+
+    17% {
+        content: "17";
+    }
+
+    18% {
+        content: "18";
+    }
+
+    19% {
+        content: "19";
+    }
+
+    20% {
+        content: "20";
+    }
+
+    21% {
+        content: "21";
+    }
+
+    22% {
+        content: "22";
+    }
+
+    23% {
+        content: "23";
+    }
+
+    24% {
+        content: "24";
+    }
+
+    25% {
+        content: "25";
+    }
+
+    26% {
+        content: "26";
+    }
+
+    27% {
+        content: "27";
+    }
+
+    28% {
+        content: "28";
+    }
+
+    29% {
+        content: "29";
+    }
+
+    30% {
+        content: "30";
+    }
+
+    31% {
+        content: "31";
+    }
+
+    32% {
+        content: "32";
+    }
+
+    33% {
+        content: "33";
+    }
+
+    34% {
+        content: "34";
+    }
+
+    35% {
+        content: "35";
+    }
+
+    36% {
+        content: "36";
+    }
+
+    37% {
+        content: "37";
+    }
+
+    38% {
+        content: "38";
+    }
+
+    39% {
+        content: "39";
+    }
+
+    40% {
+        content: "40";
+    }
+
+    41% {
+        content: "41";
+    }
+
+    42% {
+        content: "42";
+    }
+
+    43% {
+        content: "43";
+    }
+
+    44% {
+        content: "44";
+    }
+
+    45% {
+        content: "45";
+    }
+
+    46% {
+        content: "46";
+    }
+
+    47% {
+        content: "47";
+    }
+
+    48% {
+        content: "48";
+    }
+
+    49% {
+        content: "49";
+    }
+
+    50% {
+        content: "50";
+    }
+
+    51% {
+        content: "51";
+    }
+
+    52% {
+        content: "52";
+    }
+
+    53% {
+        content: "53";
+    }
+
+    54% {
+        content: "54";
+    }
+
+    55% {
+        content: "55";
+    }
+
+    56% {
+        content: "56";
+    }
+
+    57% {
+        content: "57";
+    }
+
+    58% {
+        content: "58";
+    }
+
+    59% {
+        content: "59";
+    }
+
+    60% {
+        content: "60";
+    }
+
+    61% {
+        content: "61";
+    }
+
+    62% {
+        content: "62";
+    }
+
+    63% {
+        content: "63";
+    }
+
+    64% {
+        content: "64";
+    }
+
+    65% {
+        content: "65";
+    }
+
+    66% {
+        content: "66";
+    }
+
+    67% {
+        content: "67";
+    }
+
+    68% {
+        content: "68";
+    }
+
+    69% {
+        content: "69";
+    }
+
+    70% {
+        content: "70";
+    }
+
+    71% {
+        content: "80";
+    }
+
+    72% {
+        content: "90";
+    }
+
+    73% {
+        content: "100";
+    }
+
+    74% {
+        content: "150";
+    }
+
+    75% {
+        content: "200";
+    }
+
+    76% {
+        content: "250";
+    }
+
+    77% {
+        content: "300";
+    }
+
+    78% {
+        content: "350";
+    }
+
+    79% {
+        content: "400";
+    }
+
+    80% {
+        content: "450";
+    }
+
+    81% {
+        content: "500";
+    }
+
+    85% {
+        content: "550";
+    }
+
+    90% {
+        content: "600";
+    }
+
+    95% {
+        content: "650";
+    }
+
+    100% {
+        content: "700";
+    }
+}
+
+@media screen and (max-width:769px) {
+    .headings h2::before {
+        bottom: -26%;
+    }
+
+    .img-cover {
+        -webkit-box-shadow: 0 0 0 0 transparent;
+        box-shadow: 0 0 0 0 transparent;
+        display: block;
+        padding: unset;
+        border: unset;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .crsol-card {
+        font-size: small;
+        line-height: 93%;
+    }
+
+    .crsol-card img {
+        width: 50%;
+    }
+
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .blog-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
